@@ -1,2 +1,0 @@
-# studiokuha
-company website
