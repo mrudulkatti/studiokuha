@@ -1,1 +1,1 @@
-web:gunicorn studiokuha:app
+web: gunicorn studiokuha:app
