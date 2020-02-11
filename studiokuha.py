@@ -11,4 +11,4 @@ def new():
     return render_template("studiokuha.html")
 
 if __name__ == "__main__":
-    app.run(debug=True, port=80, threaded=True)
+    app.run(debug=True, threaded=True)
