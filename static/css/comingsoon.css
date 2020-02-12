@@ -1,8 +1,6 @@
 .center {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    background-image: url('../images/stkuha.png');
-    background-repeat: no-repeat;
 }
 
 .center p{
@@ -16,5 +14,5 @@
     font-size: 6vw;
     letter-spacing: 2vw;
     word-spacing: 4vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
 }
