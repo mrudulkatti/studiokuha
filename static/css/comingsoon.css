@@ -2,6 +2,10 @@
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
 }
+body
+{
+    background-color: black;
+}
 
 .center p{
     width: max-content;
@@ -9,6 +13,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    color: white;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 6vw;

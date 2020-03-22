@@ -1,4 +1,7 @@
-
+body
+{
+    background-color: black;
+}
 img {
     display: block;
     margin-left: auto;
@@ -8,7 +11,7 @@ img {
 }
 a{
     text-align: center;
-    color: black;
+    color: white;
 }
 .topnav {
     text-align: center;
@@ -31,4 +34,24 @@ a{
 }
 .content{
     height: 100%;
+}
+.pic
+{
+    padding: 40px 5px 10px 10px;
+    background-color: white;
+}
+.contactinfo p,h3, 
+{
+    text-align: center;
+    color: white;    
+}
+.icon
+{
+    color: white;
+    text-align: center;
+}
+.row-1
+{
+   display: block; 
+   padding: 2px 2px 2px 2px;
 }
