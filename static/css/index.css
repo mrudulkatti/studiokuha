@@ -1,6 +1,6 @@
 body
 {
-    background-color: #333333;
+    background-color: #661b1d;
 }
 img {
     display: block;
@@ -15,7 +15,7 @@ a{
 }
 .topnav {
     text-align: center;
-    background-color: #333;
+    background-color: #661b1d;
     overflow: hidden;
     /* margin-bottom: 1vw; */
     /* padding: 1%; */
@@ -42,8 +42,16 @@ a{
 .pic {
 	/* padding: 40px 5px 10px 10px; */
 	background-color: white;
-	padding-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 	text-align: center;
+}
+.logo{
+    padding: 15px;
+    transition: transform .2s;
+}
+.logo:hover{
+    transform: scale(1.2);
 }
 .contactinfo p,h3
 {
@@ -54,7 +62,7 @@ a{
     font-size: small;
 }
 .footer{
-    background-color: #333333; 
+    background-color: #661b1d; 
     bottom: 0; 
     width: 100%;
     padding: 2%;
