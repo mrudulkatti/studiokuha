@@ -52,4 +52,13 @@
     .img{
         display: none;
     }
+    .row{
+        width: 100vw;
+    }
+    .text{
+        font-size: 19pt;
+    }
+    .textFirst .text, .imgFirst .text{
+        text-align: center;
+    }
 }
