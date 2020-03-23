@@ -4,25 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Contact Us</title>
-    <style>
-        body{
-            font-family: 'Playfair Display', serif;
-        }
-        .content{
-            margin: 20px;
-            /* padding-top: 40px; */
-        }
-        .content h3{
-            text-align: center;
-            margin: 30px;
-            font-size: 3em;
-        }
-        .form-control:focus{
-            border-color: black;
-            box-shadow: 0px 0px 0px black inset, 0px 0px 8px;
-        }
-    </style>
+    <link rel="stylesheet" href="../static/css/global.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
+    <title>Studio Kuha | Contact Us</title>
 </head>
 <body>
     {% include 'navbar.html' %}
@@ -32,7 +16,7 @@
             <div class='row'>
                 <div class="form-group col-sm">
                     <label>Enter Name</label>
-                    <input type="email" class="form-control" name="name" placeholder="Name" required>
+                    <input type="text" class="form-control" name="name" placeholder="Name" required>
                 </div>
                 <div class="form-group col-sm">
                     <label>Enter Email Address</label>
@@ -42,24 +26,24 @@
             <div class='row'>
                 <div class="form-group col-sm">
                     <label>Enter Contact Number</label>
-                    <input type="email" class="form-control" name="phNum" placeholder="Phone Number">
+                    <input type="text" class="form-control" name="phNum" placeholder="Phone Number">
                 </div>
                 <div class="form-group col-sm">
                     <label>Select Topic</label>
                     <select class="form-control" name="service">
-                    <option>Interior Architecture</option>
-                    <option>Product Design</option>
-                    <option>Interior Styling</option>
-                    <option>Other Service</option>
-                    <option>Feedback</option>
+                        <option value="Interior Architecture">Interior Architecture</option>
+                        <option value="Product Design">Product Design</option>
+                        <option value="Interior Styling">Interior Styling</option>
+                        <option value="Other Service">Other Service</option>
+                        <option value="Feedback">Feedback</option>
                     </select>
                 </div>
             </div>
             <div class="form-group">
                 <label>Message</label>
-                <textarea class="form-control" name="message" rows="3"></textarea>
+                <textarea class="form-control" name="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-block" style="background-color: #661b1d;">Submit</button>
+            <button type="submit" class="btn btn-primary btn-block" style="background-color: black;">Submit</button>
         </form>
     </div>
 </body>

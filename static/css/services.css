@@ -1,17 +1,21 @@
 .text{
     font-size: 3em;
-    font-family: 'Playfair Display', serif;
+}
+.textFirst{
+    background-color: black;
 }
 .textFirst, .imgFirst{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: table;
 }
 .imgFirst .text{
-    text-align: center;
-    border: 1px solid white;
-    background-color: white;
+    text-align: left;
+    /* border: 1px solid white;
+    background-color: white; */
     color:black;
-    padding-top: 105px;
-    padding-bottom: 55px;
+    /* padding-top: 105px; */
+    /* padding-bottom: 55px; */
 }
 .imgFirst .img{
     text-align: left;   
@@ -20,10 +24,27 @@
     text-align: right;
 }
 .textFirst .text{
+    text-align: right;
+    /* border: 1px solid white;
+    background-color: white; */
+    color:#fff4f4;
+    /* padding-top: 105px; */
+    /* padding-bottom: 52px;    */
+}
+.img, .text{
+    display: table-cell;
+}
+.content{
+    margin: 20px;
+    padding: 0;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.content h3{
     text-align: center;
-    border: 1px solid white;
-    background-color: white;
-    color:black;
-    padding-top: 105px;
-    padding-bottom: 52px;   
+    margin: 30px;
+    font-size: 3em;
+}
+.hidden{
+    opacity: 0;
 }

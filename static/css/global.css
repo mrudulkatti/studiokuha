@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Moon;
+    font-weight: bold;
+    src: url("../fonts/MoonBold.otf") format("opentype");
+}
+@font-face{
+    font-family: Moon;
+    src: url("../fonts/MoonLight.otf") format("opentype");
+}
+body{
+    font-family: Moon;
+    background-color: #fff4f4;
+}
