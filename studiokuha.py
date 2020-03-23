@@ -98,6 +98,7 @@ def services():
 
 @app.route('/contact', methods=["GET",'POST'])
 def contact():
+    m = ""
     if request.method == "POST":
         data = request.form
         name = data['name']
@@ -135,7 +136,8 @@ def contact():
                         recipients=['mkstudiokuha@gmail.com'],
                         body=toMeGen(name, email, phNum, service, message))
         mail.send(toMe)
-    return render_template('contact.html')
+        m = "Message Sent Successfully"
+    return render_template('contact.html', message=m)
 
 @app.route("/comingsoon") #coming soon page
 def new():
