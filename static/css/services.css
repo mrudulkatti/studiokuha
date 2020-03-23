@@ -1,0 +1,29 @@
+.text{
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+.textFirst, .imgFirst{
+    padding: 50px;
+}
+.imgFirst .text{
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    color:black;
+    padding-top: 105px;
+    padding-bottom: 55px;
+}
+.imgFirst .img{
+    text-align: left;   
+}
+.textFirst .img{
+    text-align: right;
+}
+.textFirst .text{
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    color:black;
+    padding-top: 105px;
+    padding-bottom: 52px;   
+}
