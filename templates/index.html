@@ -16,17 +16,9 @@
 </head>
 <body>
 <div class='content'>
-    <div class = "topnav" style="padding: 1%;">
-        <div class=row>
-            <div class="col-sm"><a href="/">Home</a></div>
-            <div class="col-sm"><a href="/">About</a></div>
-            <div class="col-sm"><a href="/">Services</a></div>
-            <div class="col-sm"><a href="/">Gallery</a></div>
-            <div class="col-sm"><a href="/">Contact</a></div>
-        </div>
-    </div>
+    {% include 'navbar.html' %}
     <div class = "pic">
-        <img class='logo' alt = "logo" src="../static/images//stkuha.png" height="350px" width="350px" text-align="center" data-tilt>
+        <img class='logo' id="logo" alt = "logo" src="../static/images//stkuha.png" height="350px" width="350px" text-align="center" data-tilt>
     </div>
     <br>
     <br>
