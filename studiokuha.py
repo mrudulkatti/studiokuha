@@ -137,7 +137,7 @@ def contact():
         mail.send(toMe)
     return render_template('contact.html')
 
-@app.route("/home") #coming soon page
+@app.route("/comingsoon") #coming soon page
 def new():
     return render_template("studiokuha.html")
 
