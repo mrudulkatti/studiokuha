@@ -10,6 +10,10 @@ def home():
 def services():
     return render_template('services.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 @app.route("/home") #coming soon page
 def new():
     return render_template("studiokuha.html")
