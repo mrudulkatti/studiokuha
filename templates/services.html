@@ -4,49 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="manifest" href="../static/site.webmanifest">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>Studio Kuha | Services</title>
     <style>
         .text{
-            font-size: 5em;
+            font-size: 3em;
             font-family: 'Playfair Display', serif;
         }
         .textFirst, .imgFirst{
-            padding: 20px;
+            padding: 50px;
         }
         .imgFirst .text{
-            text-align: left;
+            text-align: center;
+            border: 1px solid white;
+            background-color: white;
+            color:maroon;
+            padding-top: 105px;
+            padding-bottom: 55px;
         }
         .imgFirst .img{
-            text-align: right;
+            text-align: left;   
         }
         .textFirst .img{
-            text-align: left;
+            text-align: right;
         }
         .textFirst .text{
-            text-align: right;
+            text-align: center;
+            margin-left: 200px;
+            margin-right: 0px;
+            border: 1px solid white;
+            background-color: white;
+            color:maroon;
+            padding-top: 105px;
+            padding-bottom: 52px;   
         }
     </style>
 </head>
 <body>
+    {% include 'navbar.html' %}
+    <br>
+    <br>
+    <u style="color: white;"><h2 style="text-align: center; font-size: 4em; color: white; font-family: 'Playfair Display', serif ;">Services Offered</h2></u>
+    <br>
+    <br>
     <div class="row textFirst">
-        <div class="col-sm-4 text my-auto">Interior Design</div>
-        <div class="col-sm-8 img"><img src="https://www.richardmeier.com/wp-content/uploads/2019/06/685_1920x1080-min-1.jpg" class="img-fluid"alt=""></div>
+        <div class="col-sm-4 text my-auto">Interior Architecture</div>
+        <div class="col-sm-8 img"><img src="../static/images/intarch.jpeg" style="height:300px; width:450px;" class="img-fluid"alt=""></div>
     </div> 
     <div class="row imgFirst">
-        <div class="col-sm-8 img"><img src="https://www.richardmeier.com/wp-content/uploads/2019/06/685_1920x1080-min-1.jpg" class="img-fluid"alt=""></div>
-        <div class="col-sm-4 text my-auto">IDK LEL</div>
+        <div class="col-sm-8 img"><img src="../static/images/prod.jpeg" style="height:300px; width:450px;" class="img-fluid"alt=""></div>
+        <div class="col-sm-4 text my-auto">Product<br>Design</div>
     </div> 
     <div class="row textFirst">
-        <div class="col-sm-4 text my-auto">NO CLUE</div>
-        <div class="col-sm-8 img"><img src="https://www.richardmeier.com/wp-content/uploads/2019/06/685_1920x1080-min-1.jpg" class="img-fluid"alt=""></div>
-    </div> 
-    <div class="row imgFirst">
-        <div class="col-sm-8 img"><img src="https://www.richardmeier.com/wp-content/uploads/2019/06/685_1920x1080-min-1.jpg" class="img-fluid"alt=""></div>
-        <div class="col-sm-4 text my-auto">OTHER THING</div>
-    </div> 
-    <div class="row textFirst">
-        <div class="col-sm-4 text my-auto">THIS TOO</div>
-        <div class="col-sm-8 img"><img src="https://www.richardmeier.com/wp-content/uploads/2019/06/685_1920x1080-min-1.jpg" class="img-fluid"alt=""></div>
-    </div> 
+        <div class="col-sm-4 text my-auto">Interior<br>Styling</div>
+        <div class="col-sm-8 img"><img src="../static/images/intst.jpeg" style="height:300px; width:450px;" class="img-fluid"alt=""></div>
+    </div>
 </body>
 </html>
